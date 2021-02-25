@@ -10,6 +10,26 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="plants.html">Happy Plants</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="cat.html">Cat page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dog.html">Dog page</a>
+        </li>
+      
+      </ul>
+    </div>
+    </nav>
 
 <h1>Plants by Rohit Reddy Chandupatla</h1>
 <div class="container">
@@ -46,7 +66,11 @@
     <img src="Ugni.jpg"class="img-thumbnail" width="100px" height="100px">
 </div>
 <br>
-<table class="table table-hover table-dark">
+</caption>
+<thead class="thead-dark">
+  <caption>Table contains letter, plants,cities and foods</caption>
+</thead>
+  <tr>
 <thead>
 <tr  class="table-warning">
 <th scope="col">Letter</th>
@@ -54,43 +78,70 @@
 <th scope="col">City</th>
 <th scope="col">Food</th>
 </tr>
-</thead>
 <tbody>
-<tr class="table-info">
-<th scope="row">c</th>
-<td>Caesalpinia</td>
-<td>Colorado</td>
-<td>Chicken Biryani</td>
-</tr>
-<tr>
-<th scope="row">h</th>
-<td>HAWORTHIA</td>
-<td>Hartford</td>
-<td>Hakka Noodles</td>
-</tr>
-<tr class="table-info">
-<th scope="row">i</th>
-<td>ABELIOPHYLLUM</td>
-<td>Adelaide</td>
-<td>Almond</td>
-</tr>
-<tr >
-<th scope="row">l</th>
-<td>NASTURTIUM</td>
-<td>New York</td>
-<td>Nachos</td>
-</tr>
-<tr class="table-info">
-<th scope="row">p</th>
-<td>DANDELION</td>
-<td>Dallas</td>
-<td>Doughnut</td>
-</tr>
-<tr>
-<th scope="row">a</th>
-<td>UGNI</td>
-<td>uganda</td>
-<td>Ugali</td>
-</tr>
-</tbody>
+  <table class="table">
+    <table class="table table-bordered table-hover table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Letter</th>
+            <th scope="col">Plant</th>
+            <th scope="col">City</th>
+            <th scope="col">Food</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">C</th>
+            <td>Caesalpinia</td>
+            <td>Colorado</td>
+            <td>Chicken Biryani</td>
+        </tr>
+        <tr>
+            <th scope="row">H</th>
+            <td>HAWORTHIA</td>
+            <td>Hartford</td>
+            <td>Hakka Noodles</td>
+        </tr>
+        <tr>
+            <th scope="row">A</th>
+            <td>ABELIOPHYLLUM</td>
+            <td>Adelaide</td>
+            <td>Almond</td>
+        </tr>
+        <tr>
+            <th scope="row">N</th>
+            <td>NASTURTIUM</td>
+            <td>New York</td>
+            <td>Nachos</td>
+        </tr>
+        <tr>
+            <th scope="row">D</th>
+            <td>DANDELION</td>
+            <td>Dallas</td>
+            <td>Doughnut</td>
+        </tr>
+        <tr>
+            <th scope="row">U</th>
+            <td>UGNI</td>
+            <td>Uganda</td>
+            <td>Ugali</td>
+        </tr>
+    </tbody>
 </table>
+<br>
+</div>
+<div class="btn-toolbar" aria-label="Letters with button groups">
+    <div class="btn-group" aria-label="first group">
+      <button type="button" class="btn btn-success">C</button>
+      <button type="button" class="btn btn-success">H</button>
+      <button type="button" class="btn btn-success">A</button>
+    </div>
+    <div class="btn-group" aria-label="second group"></div>
+      <button type="button" class="btn btn-warning">D</button>
+      <button type="button" class="btn btn-warning">U</button>
+      <button type="button" class="btn btn-warning">U</button>
+    </div>
+    <br>
+    </div>
+
+
